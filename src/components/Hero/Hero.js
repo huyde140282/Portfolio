@@ -15,8 +15,8 @@ const Hero = (props) => (
         Welcome To <br />
         My Personal Portfolio
       </SectionTitle>
-      <SectionText>Hello, I'm Huy <br/> Fullstack developer</SectionText>
-      <Button onClick={() => (window.location = "https://google.com.vn")}>
+      <SectionText>Hello, I'm Huy <br /> Fullstack developer</SectionText>
+      <Button onClick={() => (window.location = "https://drive.google.com/file/d/1C03aZWhWH4OOR1CfKUm6hwtCnO4XdRX7/view?usp=sharing")}>
         See my resume
       </Button>
     </LeftSection>

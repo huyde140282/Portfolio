@@ -33,7 +33,7 @@ export const projects = [
     title: "Wire wedding",
     description:
       "A web application that offers and consults on wedding planning services.",
-    image: "/images/4.jpg",
+    image: "/images/wire-wedding.jpg",
     tags: ["React", "ChatEngine", "Firebase"],
     source: "https://github.com/ShinCN/Capstone-project-2022",
     visit: "https://google.com",
