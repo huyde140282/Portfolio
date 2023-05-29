@@ -16,7 +16,7 @@ export const projects = [
     image: "/images/dashboard.png",
     tags: ["React", "JavaScript"],
     source: "https://google.com",
-    visit: "https://google.com",
+    visit: "https://github.com/huyde140282/material_dashboard",
     id: 1,
   },
   {
@@ -25,8 +25,8 @@ export const projects = [
       "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
     image: "/images/graph-cms.png",
     tags: ["React", "WebRTC"],
-    source: "https://github.com/huyde140282/graphcms_blog",
-    visit: "https://google.com",
+    source: "https://google.com",
+    visit: "https://github.com/huyde140282/graphcms_blog",
     id: 2,
   },
   {
@@ -35,8 +35,8 @@ export const projects = [
       "A web application that offers and consults on wedding planning services.",
     image: "/images/wire-wedding.jpg",
     tags: ["React", "ChatEngine", "Firebase"],
-    source: "https://github.com/ShinCN/Capstone-project-2022",
-    visit: "https://google.com",
+    source: "https://google.com",
+    visit: "https://github.com/ShinCN/Capstone-project-2022",
     id: 3,
   },
 ];
