@@ -22,7 +22,7 @@ export const projects = [
   {
     title: "GraphCMS Blog",
     description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
+      "CMS Blog Application with featured and recent post, categories, full markdown articles , author information, comments and much more.",
     image: "/images/graph-cms.png",
     tags: ["React", "WebRTC"],
     source: "https://google.com",
