@@ -141,7 +141,14 @@ export const AdditionalTitle = styled.h2`
   font-weight: 600;
   font-size: 36px;
   line-height: 72px;
-  color: #FFFFFF;
+  color: hsl(204,23.8%,95.9%);
+  background: linear-gradient(121.57deg,#FFFFFF 18.77%,rgba(255,255,255,0.66) 60.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 28px;
+    line-height: 40px;
+  }
 `
 export const AdditionalItem = styled.li`
   font-weight: 400;
@@ -149,6 +156,10 @@ export const AdditionalItem = styled.li`
   line-height: 54px;
   color: #FFFFFF;
   list-style: inside;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 12px;
+    font-weight: 200;
+  }
 `
 
 

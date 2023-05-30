@@ -29,7 +29,7 @@ const Projects = () => (
         ({ id, image, title, description, tags, source, visit }) => (
           <BlogCard key={id}>
             <div style={{ padding: "25px" }}>
-              <Img src={image} />
+              <Img src={image} style={{ width: "100%" }}/>
             </div>
             <TitleContent>
               <HeaderThree title>{title}</HeaderThree>

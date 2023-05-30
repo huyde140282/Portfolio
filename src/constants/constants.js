@@ -42,20 +42,18 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { month: "Nov", year: 2019, text: "Started my journey" },
-  { month: "Feb", year: 2020, text: "Interned at FPT software" },
-  { month: "Jul", year: 2021, text: "Diving into japanese language" },
-  { month: "Oct", year: 2021, text: "Started work as fulltime developer" },
+  { month: "Nov", year: 2020, text: "Start my journey with web developement" },
+  { month: "Feb", year: 2021, text: "Interned at FPT software" },
+  { month: "Sep", year: 2021, text: "Started work as a back-end developer developer" },
   {
-    month: "Mar",
-    year: 2022,
-    text: "Started new journey as front-end developer",
+    month: "Mar", year: 2022, text: "Started new journey as front-end developer",
   },
+  { month: "Jun", year: 2022, text: "Completion of a capstone project at the university" },
 ];
 export const AdditionalThings = [
   "Git",
   "B2 English",
   "N5-N4 JLPT",
-  "Teamwork",
-  "Quick learning",
+  "Agile Methodology",
+  "Jira/Slack",
 ]
