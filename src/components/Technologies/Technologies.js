@@ -65,10 +65,12 @@ const Technologies = () => (
     <AdditionalList>
       {
         AdditionalThings.map(item => (
-          <AdditionalItem>{item}</AdditionalItem>
+          <AdditionalItem>
+            {item}
+          </AdditionalItem>
         ))
       }
     </AdditionalList>
-  </Section>
+  </Section >
 );
 export default Technologies;

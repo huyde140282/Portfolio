@@ -134,7 +134,7 @@ export const ListIcon = styled.img`
 export const AdditionalList = styled.aside`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 10px;
 `
 export const AdditionalTitle = styled.h2`
@@ -145,6 +145,7 @@ export const AdditionalTitle = styled.h2`
   background: linear-gradient(121.57deg,#FFFFFF 18.77%,rgba(255,255,255,0.66) 60.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-bottom: 8px;
   @media ${(props) => props.theme.breakpoints.sm} {
     font-size: 28px;
     line-height: 40px;
@@ -153,12 +154,12 @@ export const AdditionalTitle = styled.h2`
 export const AdditionalItem = styled.li`
   font-weight: 400;
   font-size: 20px;
-  line-height: 54px;
+  line-height: 50px;
   color: #FFFFFF;
   list-style: inside;
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 12px;
-    font-weight: 200;
+    font-size: 14px;
+    line-height: 22px;
   }
 `
 

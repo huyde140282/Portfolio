@@ -15,7 +15,7 @@ const Hero = (props) => (
         Welcome To <br />
         My Personal Portfolio
       </SectionTitle>
-      <SectionText>Hello, I'm Huy <br /> Fullstack developer</SectionText>
+      <SectionText>Hello, I'm Huy <br />Passionate developer from Da Nang, Viet Nam</SectionText>
       <Link href="https://drive.google.com/file/d/1C03aZWhWH4OOR1CfKUm6hwtCnO4XdRX7/view?usp=sharing" rel="noopener noreferrer" target="_blank">
         <Button>See my resume</Button>
       </Link>
